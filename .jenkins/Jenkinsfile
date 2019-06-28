@@ -20,7 +20,7 @@ pipeline {
                         sh "git pull origin master"
                     }else{
                         echo "项目不存在，准备拉取代码"
-                        git "https://github.com/xkcoding/prepare-interview.git"
+                        git "${GIT_REPO}"
                     }
                 }
             }
