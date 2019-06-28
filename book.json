@@ -1,0 +1,104 @@
+{
+    "title": "面试冲冲冲",
+    "author": "Yangkai.Shen(https://xkcoding.com)",
+    "description": "这是一本面试题的总集，旨在帮助找工作的小伙伴提供一些「备战内容」",
+    "language": "zh-hans",
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-pro",
+        "expandable-chapters-small",
+        "code",
+        "todo",
+        "advanced-emoji",
+        "github",
+        "emphasize",
+        "-sharing",
+        "sharing-plus",
+        "tbfed-pagefooter",
+        "ancre-navigation",
+        "flexible-alerts",
+        "auto-scroll-table",
+        "hide-element",
+        "donate",
+        "edit-link",
+        "disqus",
+        "github-buttons@2.1.0"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/xkcoding"
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": true,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "douban",
+                "facebook",
+                "google",
+                "hatenaBookmark",
+                "instapaper",
+                "linkedin",
+                "twitter",
+                "weibo",
+                "messenger",
+                "qq",
+                "qzone",
+                "viber",
+                "vk",
+                "weibo",
+                "pocket",
+                "stumbleupon",
+                "whatsapp"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy Yangkai.Shen 2019",
+            "modify_label": "该文件更新时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "hide-element": {
+            "elements": [
+                ".gitbook-link"
+            ]
+        },
+        "donate": {
+            "wechat": "https://xkcoding.com/resources/wechat-reward-image.png",
+            "alipay": "https://xkcoding.com/resources/alipay-reward-image.png",
+            "title": "",
+            "button": "赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+        "edit-link": {
+            "base": "https://github.com/xkcoding/prepare-interview/edit/master",
+            "label": "完善本页面"
+        },
+        "disqus": {
+            "shortName": "prepare-interview"
+        },
+        "github-buttons": {
+            "repo": "xkcoding/prepare-interview",
+            "types": [
+                "star",
+                "fork"
+            ],
+            "size": "small"
+        }
+    }
+}
