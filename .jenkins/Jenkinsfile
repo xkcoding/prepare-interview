@@ -29,14 +29,14 @@ pipeline {
         stage("下载依赖") {
             steps {
                 echo "开始下载gitbook依赖"
-                sh "echo PATH=/apps/node-v8.0.0-linux-x64/lib/node_modules/npm/bin:$PATH && gitbook install"
+                sh "gitbook install"
             }
         }
 
         stage("编译") {
             steps {
                 echo "开始打包gitbook"
-                sh "echo PATH=/apps/node-v8.0.0-linux-x64/lib/node_modules/npm/bin:$PATH && gitbook build"
+                sh "gitbook build"
             }
         }
 
