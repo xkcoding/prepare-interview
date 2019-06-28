@@ -3,7 +3,7 @@ name: NEW
 about: 贡献面试题
 title: "[NEW]"
 labels: NEW
-assignees: ''
+assignees: xkcoding
 
 ---
 

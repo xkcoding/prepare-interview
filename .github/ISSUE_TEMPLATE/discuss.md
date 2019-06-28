@@ -3,7 +3,7 @@ name: DISCUSS
 about: 面试题讨论
 title: "[DISCUSS]"
 labels: DISCUSS
-assignees: ''
+assignees: xkcoding
 
 ---
 
