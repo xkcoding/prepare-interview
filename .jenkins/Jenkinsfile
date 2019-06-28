@@ -20,7 +20,7 @@ pipeline {
                         sh "git pull"
                     }else{
                         echo "项目不存在，准备拉取代码"
-                        git ${GIT_REPO}
+                        git "${GIT_REPO}"
                     }
                 }
             }
