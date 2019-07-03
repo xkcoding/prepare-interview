@@ -3,6 +3,13 @@
     "author": "Yangkai.Shen(https://xkcoding.com)",
     "description": "这是一本面试题的总集，旨在帮助找工作的小伙伴提供一些「备战内容」",
     "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "我的博客": "https://xkcoding.com",
+            "我的笔记": "https://note.xkcoding.com",
+            "Spring Boot Demo": "https://github.com/xkcoding/spring-boot-demo"
+        }
+    },
     "plugins": [
         "-lunr",
         "-search",
