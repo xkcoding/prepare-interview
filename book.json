@@ -99,6 +99,9 @@
                 "fork"
             ],
             "size": "small"
+        },
+        "theme-default": {
+            "showLevel": true
         }
     }
 }
